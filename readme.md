@@ -1,7 +1,7 @@
 # Fast PyTorch Reinforcement and Imitation Learning (Work in progress)
 I've implemented and tested couple of RL and IL algorithms in my previous
 [*project*](https://github.com/CherryPieSexy/imitation_learning),
-but it is build on top of the gym async vecto env,
+but it is build on top of the gym async vector env,
 which is not quite fast solution for gathering experience from multiple environments.
 
 In this project I am trying to make a similar framework (maybe not as general as the previous one)
