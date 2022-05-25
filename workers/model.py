@@ -26,6 +26,7 @@ class ModelWorker:
         """
         self._worker_id = worker_id
         self._model_instance = make_model()
+        self._model_instance.share_memory()
         self._get_connection = get_connection
         self._put_connection = put_connection
         self._server_connection = server_connection
