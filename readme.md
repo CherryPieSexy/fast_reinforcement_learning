@@ -19,7 +19,7 @@ results are summarized in the following tables:
 
 ### MacBook pro M1 10 core CPU, no GPU
 
-default parameters: ```n=4096, N=8, M=3```, for Crafter ```n=64, N=4, M=2```
+default parameters: ```n=512, N=8, M=3```, for Crafter ```n=16, N=4, M=2```
 
 | method                        | CartPole | HalfCheetah | Crafter |
 |-------------------------------|----------|-------------|---------|
@@ -30,11 +30,11 @@ default parameters: ```n=4096, N=8, M=3```, for Crafter ```n=64, N=4, M=2```
 
 Best parameters for environments:
 
-| env and number of collected frames     | n     | N   | M   | fps   |
-|----------------------------------------|-------|-----|-----|-------|
-| CartPole @ 100M frames                 | 16384 | 8   | 1   | 1232k |
-| HalfCheetah @ 10M frames               | 4096  | 8   | 1   | 198k  |
-| Crafter @ 100K frames                  | 64    | 8   | 1   | 1113  |
+| env and number of collected frames     | n    | N   | M   | fps   |
+|----------------------------------------|------|-----|-----|-------|
+| CartPole @ 100M frames                 | 2048 | 8   | 1   | 1232k |
+| HalfCheetah @ 10M frames               | 512  | 8   | 1   | 198k  |
+| Crafter @ 100K frames                  | 8    | 8   | 1   | 1113  |
 
 ### PC with AMD Ryzen 9 5950x 16 core CPU + nvidia RTX 3080ti GPU (TODO)
 
